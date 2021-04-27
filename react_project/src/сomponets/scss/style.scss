@@ -1,1 +1,18 @@
 @import"normalize";
+
+.form
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    &__search
+    {
+        margin-top: 50px;
+        &-componets
+        {
+            margin-top: 100px;
+        }
+    }
+}

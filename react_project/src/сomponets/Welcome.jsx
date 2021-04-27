@@ -79,11 +79,11 @@ const Welcome = () => {
             }}
             onSubmit={(value) => {getPhoto(value)}}
             >
-            <Form class="form__search">
+            <Form class="form">
                 <label htmlFor="Поиск" class="form__search">Поиск</label>
-                <Field id="firstName" name="firstName" placeholder="Test" class="form__search" />
+                <Field id="firstName" name="firstName" placeholder="Test" class="form__search-componets" />
 
-                <button type="submit" class="form__search">Submit</button>
+                <button type="submit" class="form__search-componets">Submit</button>
             </Form>
         </Formik>
         {!!photo && photo.map((item, index) => {
