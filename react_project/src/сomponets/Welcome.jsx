@@ -40,9 +40,9 @@ const Welcome = () => {
 
     let getPhoto = async (value) => {
         let data = await PhotoAPI.getPhotos(value);
-        setPhoto(data.id);
+        setPhoto(data.data);
         //console.log(PhotoAPI.getPhotos(value));
-        console.log(data);
+        console.log(data.data);
     }
 
     //useEffect(() => {
@@ -79,16 +79,16 @@ const Welcome = () => {
             }}
             onSubmit={(value) => {getPhoto(value)}}
             >
-            <Form>
-                <label htmlFor="firstName">First Name</label>
-                <Field id="firstName" name="firstName" placeholder="Test" />
+            <Form class="form__search">
+                <label htmlFor="firstName" class="form__search">First Name</label>
+                <Field id="firstName" name="firstName" placeholder="Test" class="form__search" />
 
-                <button type="submit">Submit</button>
+                <button type="submit" class="form__search">Submit</button>
             </Form>
         </Formik>
         {!!photo && photo.map((item, index) => {
             //return <div>key={item.name}>{item.name}</div>
-            return <Photo item={item}/>
+            return <img class="photo" src={item.urls.raw}></img>
         })}
     </>
 }
