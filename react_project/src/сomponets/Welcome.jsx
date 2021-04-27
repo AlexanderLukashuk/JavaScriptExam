@@ -81,7 +81,7 @@ const Welcome = () => {
             >
             <Form class="form">
                 <label htmlFor="Поиск" class="form__search">Поиск</label>
-                <Field id="firstName" name="firstName" placeholder="Test" class="form__search-field" />
+                <Field id="firstName" name="firstName" placeholder="Поиск" class="form__search-field" />
 
                 <button type="submit" class="form__search-button">Submit</button>
             </Form>
