@@ -6,10 +6,12 @@ import './сomponets/css/style.min.css';
 function App() {
   const arr = ['Dungeon master', 'Dungeon master2', 'Dungeon master3']
   return (
-    <div>
-      <Welcome name='Dungeon master' />
+    <div class="header">
+      <div>
+        <Welcome name='Dungeon master' />
+      </div>
     </div>
-        
+
   );
 }
 
