@@ -7,6 +7,7 @@ function App() {
   const arr = ['Dungeon master', 'Dungeon master2', 'Dungeon master3']
   return (
     <div class="header">
+      <a href="#" class="header__logo">ImageStock</a>
       <div>
         <Welcome name='Dungeon master' />
       </div>

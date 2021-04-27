@@ -1,4 +1,5 @@
 @import"normalize";
+$text-color: white;
 
 .form
 {
@@ -11,7 +12,7 @@
     {
         font-size: 50px;
         margin-top: 50px;
-        color: white;
+        color: $text-color;
         &-button
         {
             width: 200px;
@@ -29,7 +30,7 @@
             //opacity: 0.2;
             background-color: black;
             color: black;
-            border-color: white;
+            border-color: $text-color;
             border-radius: 10px;
             margin-bottom: 20px;
         }
@@ -39,6 +40,14 @@
 .header
 {
     background-color: black;
+    a
+    {
+        color: $text-color;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 50px;
+        margin: 50px;
+    }
 }
 
 img
