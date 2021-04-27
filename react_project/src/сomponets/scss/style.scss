@@ -17,6 +17,8 @@
             width: 200px;
             height: 56px;
             margin-top: 200px;
+            border-radius: 10px;
+            margin-bottom: 10px;
         }
         
         &-field
@@ -24,9 +26,12 @@
             height: 50px;
             width: 700px;
             margin-top: 200px;
-            opacity: 0.2;
+            //opacity: 0.2;
             background-color: black;
-            color: white;
+            color: black;
+            border-color: white;
+            border-radius: 10px;
+            margin-bottom: 10px;
         }
     }
 }
