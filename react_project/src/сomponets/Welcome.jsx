@@ -80,7 +80,7 @@ const Welcome = () => {
             onSubmit={(value) => {getPhoto(value)}}
             >
             <Form class="form__search">
-                <label htmlFor="firstName" class="form__search">First Name</label>
+                <label htmlFor="Поиск" class="form__search">Поиск</label>
                 <Field id="firstName" name="firstName" placeholder="Test" class="form__search" />
 
                 <button type="submit" class="form__search">Submit</button>
