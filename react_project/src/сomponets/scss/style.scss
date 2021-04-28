@@ -11,13 +11,13 @@ $text-color: white;
     &__search
     {
         font-size: 50px;
-        margin-top: 50px;
+        margin-top: -70px;
         color: $text-color;
         &-button
         {
             width: 120px;
             height: 56px;
-            margin-top: 200px;
+            margin-top: 100px;
             border-radius: 10px;
             margin-bottom: 20px;
             font-size: 25px;
@@ -27,7 +27,7 @@ $text-color: white;
         {
             height: 50px;
             width: 700px;
-            margin-top: 200px;
+            margin-top: 100px;
             //opacity: 0.2;
             background-color: black;
             color: black;

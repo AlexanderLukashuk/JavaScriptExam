@@ -9,9 +9,7 @@ function App() {
   return (
     <div class="header">
       <a href="#" class="header__logo">ImageStock</a>
-      <div>
         <WelcomePage/>
-      </div>
     </div>
 
   );
