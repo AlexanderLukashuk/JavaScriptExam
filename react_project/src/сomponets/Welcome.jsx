@@ -88,7 +88,7 @@ const Welcome = () => {
         </Formik>
         {!!photo && photo.map((item, index) => {
             //return <div>key={item.name}>{item.name}</div>
-            return <img class="photo" src={item.urls.raw}></img>
+            return <div class="bodyPage"><img class="photo" src={item.urls.raw}></img></div>
         })}
     </>
 }
