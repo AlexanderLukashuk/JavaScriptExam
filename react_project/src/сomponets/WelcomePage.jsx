@@ -25,7 +25,7 @@ const WelcomePage = () => {
                 <label htmlFor="Поиск" class="form__search">Поиск</label>
                 <Field id="firstName" name="firstName" placeholder="" class="form__search-field" />
 
-                <button type="submit" class="form__search-button">Submit</button>
+                <button type="submit" class="form__search-button">Искать</button>
             </Form>
         </Formik>
         {!!photo && photo.map((item, index) => {
