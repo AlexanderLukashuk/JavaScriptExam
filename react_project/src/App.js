@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import Welcome from './сomponets/Welcome'
+import WelcomePage from './сomponets/WelcomePage'
 import './App.css';
 import './сomponets/css/style.min.css';
 
@@ -9,7 +10,7 @@ function App() {
     <div class="header">
       <a href="#" class="header__logo">ImageStock</a>
       <div>
-        <Welcome name='Dungeon master' />
+        <WelcomePage/>
       </div>
     </div>
 
